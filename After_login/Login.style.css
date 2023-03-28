@@ -1,0 +1,161 @@
+* {
+     padding: 0;
+     margin: 0;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-panel {
+     margin-top: 60px;
+     margin-left: 600px;
+     width: 450px;
+     height: auto;
+     background: #e2f4a9;
+     border-radius: 10px;
+}
+
+
+#form {
+     width: 320px;
+     margin: 20vh auto 0 auto;
+     padding: 20px;
+     background-color: #e2f4a9;
+     border-radius: 4px;
+     font-size: 12px;
+}
+
+
+#form h1 {
+     color: #0f2027;
+     text-align: center;
+}
+
+#form button {
+     padding: 10px;
+     margin-top: 10px;
+     width: 100%;
+     color: rgb(242, 230, 230);
+     background-color: rgb(33, 44, 138);
+     border: none;
+     border-radius: 4px;
+}
+
+.input-control input {
+     border: 2px solid #39e198;
+     border-radius: 4px;
+     display: block;
+     font-size: 12px;
+     padding: 10px;
+     width: 100%;
+}
+
+.input-control input:focus {
+     outline: 0;
+}
+
+.input-control.success input {
+     border-color: #09c372;
+}
+
+.input-control.error input {
+     border-color: #ff3860;
+}
+
+.input-control .error {
+     color: #ff3860;
+     font-size: 9px;
+     height: 13px;
+}
+
+.label {
+     padding: 22px 130px;
+     font-size: 30px;
+     font-weight: bold;
+     color: #130f40;
+}
+
+.login_form {
+     padding: 20px 40px;
+}
+
+.login_form .font {
+     font-size: 18px;
+     color: #130f40;
+     margin: 5px 0;
+}
+
+.login_form input {
+     height: 40px;
+     width: 350px;
+     padding: 0 5px;
+     font-size: 18px;
+     outline: none;
+     border: 1px solid silver;
+}
+
+.login_form .font2 {
+     margin-top: 33px;
+}
+
+.login_form button {
+     margin: 45px 0 30px 0;
+     height: 45px;
+     width: 365px;
+     font-size: 20px;
+     color: rgb(255, 255, 255);
+     outline: none;
+     cursor: pointer;
+     font-weight: bold;
+     background: #000000;
+     border-radius: 3px;
+     border: 2px solid #ffffff;
+     transition: .3s;
+}
+
+.login_form button:hover {
+     background: #ffffff;
+     color: #000000;
+     border-radius: 3px;
+     border: 1px solid #000000;
+}
+
+
+
+
+.login_form #email_error,
+.login_form #pass_error {
+     margin-top: 5px;
+     width: 345px;
+     font-size: 18px;
+     color: #C62828;
+     background: rgba(255, 0, 0, 0.1);
+     text-align: center;
+     padding: 5px 8px;
+     border-radius: 3px;
+     border: 1px solid #EF9A9A;
+     display: none;
+}
+
+.an {
+     padding: 5px 10px;
+     background: rgb(13, 2, 110);
+     border: 0;
+     margin-top: 20px;
+     margin-left: 150px;
+     font-size: 18px;
+     border-radius: 1px;
+     cursor: wait;
+     position: relative;
+     color: #fff;
+     transition: 0.4s ease;
+}
+
+.an:hover {
+     background: #C62828;
+     color: aqua;
+}
+
+.an a {
+     text-decoration: none;
+     color: white;
+     font-weight: bold;
+}
