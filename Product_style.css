@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    line-height: 1.5;
+}
+.card-wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.img-display{
+    overflow: hidden;
+}
+
+.img-showcase img{
+    min-width: 40%;
+}
+.img-select{
+    display: flex;
+}
+.img-item{
+    margin: 0.3rem;
+}
+.img-item:nth-child(1),
+.img-item:nth-child(2),
+.img-item:nth-child(3){
+    margin-right: 0;
+}
+.img-item:hover{
+    opacity: 0.8;
+}
+.product-content{
+    padding: 2rem 1rem;
+}
+.product-title{
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    position: relative;
+    color: #12263a;
+    margin: 1rem 0;
+    font-size: 30px;
+    
+
+}
+
+.product-price{
+    margin: 1rem 0;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.product-price span{
+    font-weight: 400;
+}
+.new-price span{
+    color: #256eff;
+}
+.product-detail h2{
+    text-transform: capitalize;
+    color: #12263a;
+    padding-bottom: 0.6rem;
+}
+.product-detail p{
+    font-size: 0.9rem;
+    padding: 0.3rem;
+    opacity: 0.8;
+}
+.product-detail ul{
+    margin: 1rem 0;
+    font-size: 0.9rem;
+}
+.product-detail ul li{
+    margin: 0;
+    list-style: none;
+    background: url(shoes_images/checked.png) left center no-repeat;
+    background-size: 18px;
+    padding-left: 1.7rem;
+    margin: 0.4rem 0;
+    font-weight: 600;
+    opacity: 0.9;
+}
+.product-detail ul li span{
+    font-weight: 400;
+}
+
+
+    .card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1.5rem;
+        margin-top: 0px;    
+    }
+    .card-wrapper{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .product-imgs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .product-content{
+        padding-top: 0;
+    }
